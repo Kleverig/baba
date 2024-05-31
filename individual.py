@@ -24,6 +24,41 @@ print(s1 > s2 and len(s2) != 5)
 print('Четверте завдання: Виведення повідомлення при значенні змінної більше 0')
 x = -7  
 
+a, b = 0, 1
+
+count = 10
+while count > 0:
+    print(a, end=' ')
+    a, b = b, a + b
+    count -= 1
+
+print('|')
+a, b = 0, 1
+n = 1
+
+while n <= 20:
+    if n >= 5:
+        print(a, end=' ')
+    a, b = b, a + b
+    n += 1
+print('|')
+
+num = 0
+while num <= 20:
+    if num % 2 == 0:
+        print(num, end=' ')
+    num += 1
+print('|')
+
+num = -1
+count = 0
+while num >= -21:
+    if count % 3 == 0:
+        print(num, end=' ')
+    num -= 1
+    count += 1
+print('|')
+
 if x > 0:
     print("Змінна більше 0")
 else:
@@ -50,3 +85,38 @@ else:
     c = d
 
 print(f"Значення третьої змінної: {c}")
+
+a, b = 0, 1
+
+count = 10
+while count > 0:
+    print(a, end=' ')
+    a, b = b, a + b
+    count -= 1
+
+print('|')
+a, b = 0, 1
+n = 1
+
+while n <= 20:
+    if n >= 5:
+        print(a, end=' ')
+    a, b = b, a + b
+    n += 1
+print('|')
+
+num = 0
+while num <= 20:
+    if num % 2 == 0:
+        print(num, end=' ')
+    num += 1
+print('|')
+
+num = -1
+count = 0
+while num >= -21:
+    if count % 3 == 0:
+        print(num, end=' ')
+    num -= 1
+    count += 1
+print('|')
